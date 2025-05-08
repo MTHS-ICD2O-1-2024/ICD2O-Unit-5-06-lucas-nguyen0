@@ -7,12 +7,12 @@
 'use strict'
 
 function enterClicked() {
-  let inputNumber1 = parseFloat(document.getElementById('input-number-one').value)
-  const inputNumber2 = parseFloat(document.getElementById('input-number-two').value)
+  let inputNumberOne = parseFloat(document.getElementById('input-number-one').value)
+  const inputNumberTwo = parseFloat(document.getElementById('input-number-two').value)
   let answer = 0
-  while (inputNumber1 >= 1) {
-    answer = answer + inputNumber2
-    inputNumber1--
+  while (inputNumberOne >= 1) {
+    answer = answer + inputNumberTwo
+    inputNumberOne--
   } 
   document.getElementById("answer").innerHTML =
     'The answer is: ' + answer + '.'
